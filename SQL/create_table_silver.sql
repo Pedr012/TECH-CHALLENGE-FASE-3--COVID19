@@ -1,0 +1,27 @@
+
+CREATE TABLE silver_pnad_covid (
+    ano INTEGER,
+    mes INTEGER,
+    uf VARCHAR(25),
+    sexo VARCHAR(20),
+    raca VARCHAR(20),
+    escolaridade VARCHAR(30),
+    idade VARCHAR(10),
+    febre VARCHAR(15),
+    tosse VARCHAR(15),
+    dor_garganta VARCHAR(15),
+    dor_cabeca VARCHAR(15),
+    perda_cheiro_sabor VARCHAR(20),
+    restricao_contato VARCHAR(40),
+    visita_estab_saude VARCHAR(15),
+    ficou_em_casa VARCHAR(15),
+    ligou_profissio_saude VARCHAR(15),
+    trabalhou_na_semana VARCHAR(20),
+    remunerado VARCHAR(20),
+    tempo_afastado_trabalho VARCHAR(30),
+    tipo_ocupacao VARCHAR(40),
+    faixa_rendimento VARCHAR(25),
+    plano_saude VARCHAR(15),
+    fez_teste_covid VARCHAR(15),
+    resultado_teste_covid VARCHAR(25)
+);
