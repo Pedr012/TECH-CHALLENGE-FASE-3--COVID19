@@ -1,0 +1,208 @@
+# =================================================================
+# CREDENCIAIS E CONFIGURAÇÕES SENSÍVEIS
+# =================================================================
+.env
+*.env
+.env.local
+.env.production
+.env.development
+
+# =================================================================
+# DADOS E BASES (não versionar datasets grandes)
+# =================================================================
+bases/
+data/
+*.csv
+*.zip
+*.parquet
+*.xlsx
+*.xls
+
+# Exceto arquivos de exemplo pequenos
+!data/sample/
+!data/examples/
+
+# =================================================================
+# JUPYTER NOTEBOOKS
+# =================================================================
+# Checkpoints
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# Notebook outputs (opcional - remova se quiser versionar outputs)
+*.ipynb
+
+# =================================================================
+# PYTHON
+# =================================================================
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+
+# Virtual environments
+.env/
+.venv/
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# =================================================================
+# POWER BI
+# =================================================================
+# Arquivos temporários Power BI
+*.tmp
+*.pbix.tmp
+
+# Cache Power BI
+.pbix.cache
+
+# =================================================================
+# SQL E DATABASE
+# =================================================================
+# Dumps de banco
+*.sql.backup
+*.dump
+*.backup
+
+# Logs de banco
+*.log
+
+# =================================================================
+# AWS E CLOUD
+# =================================================================
+# Credenciais AWS
+.aws/
+credentials
+
+# Terraform (se usar no futuro)
+*.tfstate
+*.tfstate.*
+.terraform/
+
+# =================================================================
+# SISTEMAS OPERACIONAIS
+# =================================================================
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon?
+
+# Linux
+*~
+
+# =================================================================
+# IDEs E EDITORES
+# =================================================================
+# Visual Studio Code
+.vscode/
+*.code-workspace
+
+# PyCharm
+.idea/
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# Vim
+*.swp
+*.swo
+
+# =================================================================
+# LOGS E ARQUIVOS TEMPORÁRIOS
+# =================================================================
+logs/
+*.log
+temp/
+tmp/
+*.tmp
+
+# =================================================================
+# DOCUMENTOS ESPECÍFICOS (se necessário)
+# =================================================================
+# Documentos Word temporários
+~$*.docx
+~$*.doc
+
+# Arquivos de backup
+*.backup
+*.bak
+*~
+
+# =================================================================
+# ARTIFACTS E BUILD
+# =================================================================
+artifacts/
+target/
+*.artifact
+
+# =================================================================
+# SPARK (se usar no futuro)
+# =================================================================
+spark-warehouse/
+metastore_db/
+derby.log
+
+# =================================================================
+# NOTAS
+# =================================================================
+# 
+# Este .gitignore está configurado para:
+# ✅ Proteger credenciais e dados sensíveis
+# ✅ Excluir datasets grandes da versão
+# ✅ Manter estrutura do projeto limpa
+# ✅ Compatibilidade com ferramentas de Data Science
+# 
+# =================================================================
