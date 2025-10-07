@@ -1,0 +1,3 @@
+Repositório GIT: https://github.com/Pedr012/TECH-CHALLENGE-FASE-3--COVID19/tree/master
+
+Painel Power BI: https://app.powerbi.com/view?r=eyJrIjoiNTc1OTNjMTYtNTdlMC00N2M3LWI5NzAtNjZlMjE2YzY5Zjc0IiwidCI6IjE2YjM4NmUyLWMzM2ItNDYxOS04MDkxLTFhODA0ZGViZGI3ZiJ9
